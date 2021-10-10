@@ -1,2 +1,4 @@
 # Kitchen
-For HTTP communication - ```docker run --name kitchen -p 80:8080 -d --network="[CUSTOM NETWORK]" [IMAGE]```
+For HTTP communication - ```docker run --name kitchen -p 8080:8080 [IMAGE]```
+
+Route ```/get_order``` shows list of orders 
